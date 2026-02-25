@@ -1,0 +1,12 @@
+{
+  "name": "@openclaw/shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "echo shared-test-ok",
+    "lint": "echo shared-lint-ok",
+    "build": "echo shared-build-ok"
+  }
+}

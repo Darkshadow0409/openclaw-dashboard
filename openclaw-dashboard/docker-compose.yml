@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  server:
+    build: .
+    working_dir: /app
+    command: npm run dev -w apps/server
+    ports: ['4000:4000']
+    env_file: .env
+  web:
+    build: .
+    working_dir: /app
+    command: npm run dev -w apps/web -- --host 0.0.0.0
+    ports: ['5173:5173']
+    env_file: .env

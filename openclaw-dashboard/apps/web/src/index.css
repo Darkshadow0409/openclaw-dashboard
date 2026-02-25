@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{font-family:Inter,system-ui,sans-serif;color:#e2e8f0}
+.card{@apply rounded-xl bg-slate-900/70 border border-slate-700 p-4 shadow-lg hover:shadow-fuchsia-500/10 transition}
+.badge{@apply px-2 py-1 rounded text-xs font-semibold}

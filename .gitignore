@@ -1,0 +1,5 @@
+openclaw-dashboard/node_modules/
+openclaw-dashboard/apps/web/dist/
+openclaw-dashboard/apps/server/dist/
+openclaw-dashboard/apps/web/src/**/*.js
+openclaw-dashboard/.env
